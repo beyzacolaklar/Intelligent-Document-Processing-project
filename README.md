@@ -1,7 +1,7 @@
 
 # 🧠 Yerel LLM ile Akıllı Belge İşleme (Intelligent Document Processing)
 
-Bu proje; PDF dosyalarını otomatik olarak doğrulayan, metin çıkaran, belge türlerini sınıflandıran ve yerel bir Büyük Dil Modeli (LLM) kullanarak yapılandırılmış bilgileri çıkaran uçtan uca bir belge zekası sistemidir.
+Bu proje; **BDR ve JCR raporları gibi finansal PDF dosyalarını** otomatik olarak doğrulayan, metin çıkaran, belge türlerini sınıflandıran ve yerel bir Büyük Dil Modeli (LLM) kullanarak yapılandırılmış bilgileri çıkaran uçtan uca bir belge zekası sistemidir.
 
 ---
 <p align="center">
