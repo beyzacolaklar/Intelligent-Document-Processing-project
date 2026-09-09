@@ -1,9 +1,12 @@
-# Intelligent-Document-Processing-project
+
 # 🧠 Intelligent Document Processing with Local LLMs
 
 An end-to-end document intelligence system that automatically validates PDF files, extracts text, classifies document types, and retrieves structured information using a local Large Language Model.
 
 ---
+<p align="center">
+  <img src="assets/Kayıt 2026-09-09 141835.gif" alt="Project Demo" width="700px">
+</p>
 
 ## 🚀 Overview
 
