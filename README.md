@@ -5,7 +5,7 @@ An end-to-end document intelligence system that automatically validates PDF file
 
 ---
 <p align="center">
-  <img src="assets/Kayıt 2026-09-09 141835.gif" alt="Project Demo" width="700px">
+  <img src="assets/Kayıt 2026-09-09 141835.gif" alt="Project Demo" width="900px">
 </p>
 
 ## 🚀 Overview
