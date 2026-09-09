@@ -1,51 +1,56 @@
-
-# 🧠 Intelligent Document Processing with Local LLMs
-
-An end-to-end document intelligence system that automatically validates PDF files, extracts text, classifies document types, and retrieves structured information using a local Large Language Model.
-
----
 <p align="center">
-  <img src="assets/Kayıt 2026-09-09 141835.gif" alt="Project Demo" width="900px">
+  <img src="assets/Kayıt 2026-09-09 141835.gif" alt="Proje Demosu" width="100%">
 </p>
 
-## 🚀 Overview
+# 🧠 Yerel LLM ile Akıllı Belge İşleme (Intelligent Document Processing)
 
-This project is an **AI-powered Document Intelligence** application developed in Python. It processes financial PDF reports (such as BDR and JCR reports) through a complete analysis pipeline and extracts meaningful structured information without relying on cloud-based AI services.
-
-The system combines **rule-based document classification** with a locally hosted Large Language Model (**Qwen2.5-1.5B-Instruct**) to provide fast, privacy-friendly, and structured document understanding.
+Bu proje; PDF dosyalarını otomatik olarak doğrulayan, metin çıkaran, belge türlerini sınıflandıran ve yerel bir Büyük Dil Modeli (LLM) kullanarak yapılandırılmış bilgileri çıkaran uçtan uca bir belge zekası sistemidir.
 
 ---
 
-## ✨ Key Features
+## 🚀 Genel Bakış
 
-* **PDF Validation & Cleaning:** Automatically verifies and cleans input documents.
-* **Smart Classification:** Rule-based document type classification.
-* **Local LLM Extraction:** Powered by local Qwen2.5 model for secure information retrieval.
-* **Structured Data Output:** Extracts Company Names, Reporting Years, and Subsidiary Presence into JSON and Excel formats.
-* **Interactive UI:** Modern Gradio-powered web interface.
-* **100% Local Execution:** Runs completely on your local machine with zero external API dependencies.
+Bu proje, Python ile geliştirilmiş **Yapay Zeka Destekli Belge Zekası** uygulamasıdır. BDR ve JCR raporları gibi finansal PDF raporlarını eksiksiz bir analiz boru hattından (pipeline) geçirerek bulut tabanlı AI servislerine ihtiyaç duymadan anlamlı ve yapılandırılmış bilgiler çıkarır.
+
+Sistem; hızlı, gizlilik odaklı ve yapılandırılmış belge analizi sağlamak için **kural tabanlı belge sınıflandırmasını**, yerel olarak barındırılan bir Büyük Dil Modeli (**Qwen2.5-1.5B-Instruct**) ile birleştirir.
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Temel Özellikler
 
-| Category | Technologies |
+* **PDF Doğrulama ve Temizleme:** Girdi belgelerini otomatik olarak doğrular ve temizler.
+* **Akıllı Sınıflandırma:** Kural tabanlı belge türü sınıflandırması yapar.
+* **Yerel LLM ile Bilgi Çıkarımı:** Güvenli veri elde etme süreci için yerel Qwen2.5 modeliyle güçlendirilmiştir.
+* **Yapılandırılmış Veri Çıktısı:** Şirket adlarını, raporlama yıllarını ve bağlı ortaklık durumunu JSON ve Excel formatlarında kaydeder.
+* **İnteraktif Arayüz:** Modern Gradio tabanlı web arayüzüne sahiptir.
+* **%100 Yerel Çalışma:** Harici bir API bağımlılığı olmaksızın tamamen kendi bilgisayarınızda çalışır.
+
+---
+
+## 🛠️ Teknoloji Yığını
+
+| Kategori | Teknolojiler |
 | :--- | :--- |
-| **Language** | Python |
-| **AI Model** | Qwen2.5-1.5B-Instruct |
-| **Frameworks** | Hugging Face Transformers, Gradio |
-| **Data Processing** | Pandas, PyPDF / PDF libraries |
+| **Dil** | Python |
+| **Yapay Zeka Modeli** | Qwen2.5-1.5B-Instruct |
+| **Çatılar (Frameworks)** | Hugging Face Transformers, Gradio |
+| **Veri İşleme** | Pandas, PyPDF / PDF kütüphaneleri |
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Hızlı Başlangıç
+
+Projeyi kendi bilgisayarınızda çalıştırmak için terminalinizde şu adımları takip edin:
 
 ```bash
-# Clone the repository
+# Repoyu klonlayın
 git clone [https://github.com/ilaydaylcnz/Intelligent_Document_Processing_with_Local_LLMs.git](https://github.com/ilaydaylcnz/Intelligent_Document_Processing_with_Local_LLMs.git)
 
-# Move into the project directory
+# Proje dizinine girin
 cd Intelligent_Document_Processing_with_Local_LLMs
 
-# Install dependencies
+# Gerekli kütüphaneleri yükleyin
 pip install -r requirements.txt
+
+# Uygulamayı başlatın
+python app.py
