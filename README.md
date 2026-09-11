@@ -4,10 +4,7 @@
 Bu proje; **BDR ve JCR raporları gibi finansal PDF dosyalarını** otomatik olarak doğrulayan, metin çıkaran, belge türlerini sınıflandıran ve yerel bir Büyük Dil Modeli (LLM) kullanarak yapılandırılmış bilgileri çıkaran uçtan uca bir belge zekası sistemidir.
 
 ---
-<p align="center">
-  <img src="assets/Kayıt 2026-09-09 141835.gif" alt="Proje Demosu" width="100%">
-</p>
-
+![Proje Demosu](assets/nesnetespiti.gif)
 ## 🚀 Genel Bakış
 
 Bu proje, Python ile geliştirilmiş **Yapay Zeka Destekli Belge Zekası** uygulamasıdır. BDR ve JCR raporları gibi finansal PDF raporlarını eksiksiz bir analiz boru hattından (pipeline) geçirerek bulut tabanlı AI servislerine ihtiyaç duymadan anlamlı ve yapılandırılmış bilgiler çıkarır.
